@@ -1,7 +1,6 @@
 <h1 align="center">Hey there, I'm Nandan Gupta <img src="https://raw.githubusercontent.com/harekrishnarai/harekrishnarai/master/wave.gif" width="30px"></h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/I_am_Looking_for_Opportunities-Available-brightgreen"/>
   <a href="https://www.linkedin.com/in/nandan-gupta-698aa11b">
     <img src="https://img.shields.io/badge/Nandan Gupta-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
@@ -37,6 +36,7 @@ I believe in giving back to the community and actively contribute to open source
 - **CloudSecAIBot**: My latest and most innovative project - an AI-powered cloud security bot that revolutionizes cloud security assessments. Built with Python, it leverages advanced AI/ML capabilities to automate cloud security assessments, detect misconfigurations, identify vulnerabilities, and provide intelligent security recommendations for cloud infrastructure across AWS, Azure, and GCP. The tool combines machine learning with security expertise to help organizations secure their cloud environments more effectively.
 
 - **Flowlyt**: Security analyzer for GitHub Actions workflows that detects malicious patterns, misconfigurations, and secrets exposure. Built with Go and supports Open Policy Agent (OPA) for policy-as-code enforcement.
+- **SCAGoat (Damn Vulnerable SCA)**: Active contributor to this educational SCA testbed that simulates vulnerable and compromised JAR dependencies. Covers critical CVEs including Log4j, Jackson-Databind, and includes malicious package simulations. Presented at DEF CON, Black Hat Europe, Black Hat Asia, and AppSec Village.
 - **PromptInjector**: Automated prompt injection testing tool for LLMs with over 1,000 curated payloads. Designed like sqlmap for AI systems, it systematically tests seven categories of injection attacks.
 - **PyIntruder**: High-speed CLI fuzzing and penetration testing tool with multithreading, payload encoding, and customizable workflows. Inspired by feedback from OSCP practitioners.
 - **AIGraphqlPentester**: AI-powered GraphQL security testing Burp Suite extension that combines introspection techniques with GPT-powered exploit generation for automated security testing.
@@ -47,7 +47,7 @@ I believe in giving back to the community and actively contribute to open source
 
 I have presented my research and tools at several top-tier security conferences, sharing insights on AI security, DevSecOps, cloud security, and offensive security tooling:
 
-- **Black Hat Europe 2025:** [CloudSecAIBot](https://blackhat.com/eu-25/arsenal/schedule/index.html?track[]=cloud-security#cloud-sec-ai-bot-48584)  
+- **Black Hat Europe 2025:** [CloudSecAIBot](https://blackhat.com/eu-25/arsenal/schedule/index.html#cloud-sec-ai-bot-48584)  
   *Arsenal Presentation* - Presenting my latest innovation, CloudSecAIBot, an AI-powered cloud security bot that revolutionizes cloud security assessments. The tool leverages advanced AI/ML capabilities to automate cloud security assessments, detect misconfigurations, identify vulnerabilities, and provide intelligent security recommendations for cloud infrastructure.
 
 - **AppSec Village DC 2025 (August 09, 2025):** [Catch The Flow: Securing CI/CD with Flowlyt](https://www.appsecvillage.com/events/dc-2025/catch-the-flow-securing-ci-cd-with-flowlyt-945520)  
@@ -66,7 +66,7 @@ I have presented my research and tools at several top-tier security conferences,
   *Talk* - Introduced GraphQL Security Tester, a Burp Suite extension that brings intelligent automation to GraphQL pentesting using GPT-powered exploit generation for automated schema extraction and attack creation.
 
 <p align="center">
-  <a href="https://blackhat.com/eu-25/arsenal/schedule/index.html?track[]=cloud-security#cloud-sec-ai-bot-48584">
+  <a href="https://blackhat.com/eu-25/arsenal/schedule/index.html#cloud-sec-ai-bot-48584">
     <img src="https://img.shields.io/badge/BlackHat%20Europe-2025-black?style=for-the-badge&logo=blackhat&logoColor=white" alt="Black Hat Europe 2025"/>
   </a>
   <a href="https://www.appsecvillage.com/events/dc-2025/catch-the-flow-securing-ci-cd-with-flowlyt-945520">
@@ -129,8 +129,22 @@ A comprehensive Burp Suite extension (also known as GraphQL Security Tester) tha
 **Key Features:** Automated schema extraction, GPT-powered exploit generation, multiple attack vectors, dynamic AI monitoring  
 **Presented at:** Global Data & AI Innovation (GDAI) 2025
 
-#### [Damn Vulnerable SCA](https://github.com/harekrishnarai/Damn-vulnerable-sca)
-A deliberately insecure and compromised SCA (Software Composition Analysis) testbed that simulates CVE exposure in Node.js and Spring Boot applications, malicious/compromised packages, and reachability validation workflows. Ideal for evaluating SCA tools, container scanners, and CI/CD defenses in a controlled environment.
+#### [Damn Vulnerable SCA (SCAGoat)](https://github.com/harekrishnarai/Damn-vulnerable-sca)
+A deliberately insecure and compromised SCA (Software Composition Analysis) testbed application that focuses on vulnerable and compromised JAR dependencies. SCAGoat provides hands-on learning opportunities to understand potential attack scenarios and helps identify vulnerabilities that may arise from using vulnerable JAR files in development code.
+
+**Key Features:**
+- 🎯 **Educational Focus**: Designed for training security professionals and evaluating SCA tools
+- 🔍 **Multiple CVEs**: Covers critical and high-severity CVEs including Log4j (CVE-2021-44228), Jackson-Databind (CVE-2020-9547), Lodash (CVE-2019-10744), and more
+- ⚠️ **Malicious Package Simulation**: Includes xz-java-malicious package that simulates a compromised library, undetectable by some SCA tools
+- 🏗️ **Multi-Stack**: Includes both Node.js and Spring Boot applications with various vulnerability scenarios
+- 📊 **Interactive Dashboard**: Features a modern UI with vulnerability dashboard, interactive demos, and detailed CVE information
+- 🐳 **Docker Support**: Easy deployment with Docker Compose for isolated testing environments
+
+**CVEs Covered**: CVE-2023-42282, CVE-2017-1000427, CVE-2017-16114, CVE-2021-44228 (Log4j), CVE-2020-9547, CVE-2021-33623, CVE-2020-13935, CVE-2019-10744, CVE-2019-8331, CVE-2020-8116, and malicious xz-java package
+
+**Presented at:** DEF CON 32 Demo Labs, AppSec Village Arsenal, Black Hat Europe 2024, Black Hat Asia 2025  
+**Website:** [docs.scagoat.dev](https://docs.scagoat.dev)  
+**Contributor**: Active contributor to this project
 
 ---
 
