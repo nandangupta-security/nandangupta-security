@@ -11,7 +11,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Pull_Shark-GitHub%20Achievement-red?style=flat-square" alt="Pull Shark Achievement"/>
+  <img src="https://img.shields.io/badge/OSCP-Offensive%20Security-red?style=flat-square&logo=hackthebox&logoColor=white" alt="OSCP Certification"/>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/CEH-Certified%20Ethical%20Hacker-blue?style=flat-square&logo=eccouncil&logoColor=white" alt="CEH Certification"/>
 </p>
 
 ---
@@ -23,7 +25,7 @@ I'm a **Principal Application Security Engineer** at a Fintech company with a st
 My passion lies in building innovative security tools that solve real-world problems, contributing to open-source projects, and sharing knowledge with the security community through conference talks and research publications.
 
 - 🔒 Creator of **CloudSecAIBot** and co-creator of security tools including **Flowlyt**, **PromptInjector**, **PyIntruder**, and **AIGraphqlPentester** that are actively used by security professionals worldwide
-- 🧰 Regular conference speaker at top-tier security conferences including Black Hat, AppSec Village, BSides, DevFest, and GDAI
+- 🧰 Regular conference speaker at top-tier security conferences including Black Hat, DEF CON AppSec Village, BSides, DevFest, and GDAI
 - 🔍 My research interests include AI/ML security, prompt injection attacks, DevSecOps automation, application security, supply chain security, and GraphQL security testing
 - 🎓 Passionate about security education and helping developers build secure applications from the ground up
 
@@ -50,10 +52,10 @@ I have presented my research and tools at several top-tier security conferences,
 - **Black Hat Europe 2025:** [CloudSecAIBot](https://blackhat.com/eu-25/arsenal/schedule/index.html#cloud-sec-ai-bot-48584)  
   *Arsenal Presentation* - Presenting my latest innovation, CloudSecAIBot, an AI-powered cloud security bot that revolutionizes cloud security assessments. The tool leverages advanced AI/ML capabilities to automate cloud security assessments, detect misconfigurations, identify vulnerabilities, and provide intelligent security recommendations for cloud infrastructure.
 
-- **AppSec Village DC 2025 (August 09, 2025):** [Catch The Flow: Securing CI/CD with Flowlyt](https://www.appsecvillage.com/events/dc-2025/catch-the-flow-securing-ci-cd-with-flowlyt-945520)  
+- **DEF CON AppSec Village 2025 (August 09, 2025):** [Catch The Flow: Securing CI/CD with Flowlyt](https://www.appsecvillage.com/events/dc-2025/catch-the-flow-securing-ci-cd-with-flowlyt-945520)  
   *Arsenal Presentation* - Addressed the critical supply chain attack on `tj-actions/changed-files` (CVE-2025-30066) and demonstrated how Flowlyt helps security teams enforce CI/CD security standards using Open Policy Agent (OPA).
 
-- **AppSec Village DC 2025 (August 09, 2025):** [PyIntruder: Customizable, CLI-Native Web Fuzzer](https://www.appsecvillage.com/events/dc-2025/pyintruder-customizable-cli-native-web-fuzzer-945470)  
+- **DEF CON AppSec Village 2025 (August 09, 2025):** [PyIntruder: Customizable, CLI-Native Web Fuzzer](https://www.appsecvillage.com/events/dc-2025/pyintruder-customizable-cli-native-web-fuzzer-945470)  
   *Arsenal Presentation* - Introduced a high-speed, open-source CLI fuzzing tool with multithreading, payload encoding, and customizable workflows designed for AppSec professionals.
 
 - **BSides Chicago 2025 (Track 2, Saturday 3:30 pm - 3:50 pm):** [Jailbreak-as-a-Service: Automating Prompt Injection with PromptInjector](https://bsideschicago.org/schedule/)  
@@ -70,7 +72,7 @@ I have presented my research and tools at several top-tier security conferences,
     <img src="https://img.shields.io/badge/BlackHat%20Europe-2025-black?style=for-the-badge&logo=blackhat&logoColor=white" alt="Black Hat Europe 2025"/>
   </a>
   <a href="https://www.appsecvillage.com/events/dc-2025/catch-the-flow-securing-ci-cd-with-flowlyt-945520">
-    <img src="https://img.shields.io/badge/AppSec%20Village-DC%202025-blueviolet?style=for-the-badge" alt="AppSec Village DC 2025"/>
+    <img src="https://img.shields.io/badge/DEF%20CON%20AppSec%20Village-2025-blueviolet?style=for-the-badge" alt="DEF CON AppSec Village 2025"/>
   </a>
   <a href="https://bsideschicago.org/schedule/">
     <img src="https://img.shields.io/badge/BSides-Chicago%202025-yellow?style=for-the-badge" alt="BSides Chicago 2025"/>
@@ -109,7 +111,7 @@ An advanced AI-powered cloud security bot that revolutionizes cloud security ass
 A static analysis and policy-as-code tool that scans GitHub Actions workflows to detect malicious patterns, misconfigurations, and secrets exposure. Built with Go, Flowlyt helps security teams enforce CI/CD security standards and prevent supply chain attacks like the critical `tj-actions/changed-files` incident (CVE-2025-30066). Features Open Policy Agent (OPA) support for custom security policies and automated compliance checking.
 
 **Key Features:** Malicious pattern detection, secrets scanning, policy-as-code enforcement, OPA integration  
-**Presented at:** AppSec Village DC 2025
+**Presented at:** DEF CON AppSec Village 2025
 
 #### [PromptInjector](https://github.com/nayangoel/PromptInjector)
 A comprehensive defensive security testing tool for AI systems—like sqlmap for LLMs. PromptInjector helps identify prompt injection vulnerabilities through systematic testing with over 1,000 curated prompt payloads and dynamic attack generation using LLMs themselves. It systematically tests seven categories of injection attacks including role manipulation, jailbreaks, context escapes, system prompt leaks, and more. Features automatic behavioral analysis, campaign tracking, and detailed risk scoring reports.
@@ -187,15 +189,10 @@ My research focuses on emerging security challenges and developing practical sol
 
 - **Black Hat Speaker**: Selected to present CloudSecAIBot at Black Hat Europe 2025, one of the world's most prestigious security conferences
 - **Open Source Impact**: Created and co-maintained multiple security tools used by security professionals worldwide
-- **Conference Speaker**: Presented at 6+ top-tier security conferences in 2025, including Black Hat Europe, AppSec Village, BSides, DevFest, and GDAI
-- **Security Research**: Contributed to addressing critical security issues including the `tj-actions/changed-files` supply chain attack (CVE-2025-30066)
+- **Conference Speaker**: Presented at 6+ top-tier security conferences in 2025, including Black Hat Europe, DEF CON AppSec Village, BSides, DevFest, and GDAI
 - **Community Contribution**: Active contributor to open-source security projects, helping improve security practices across the industry
 - **Latest Innovation**: CloudSecAIBot - Revolutionizing cloud security with AI-powered automation and intelligent threat detection
 
 ---
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=nandangupta-security&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views"/>
-</p>
 
 💬 *Let's connect to talk about security research, tool development, AI security, or collaborations!*
