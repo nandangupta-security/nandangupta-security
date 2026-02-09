@@ -1,4 +1,4 @@
-<h1 align="center">Hey there, I'm Nandan Gupta <img src="https://raw.githubusercontent.com/harekrishnarai/harekrishnarai/master/wave.gif" width="30px"></h1>
+<h1 align="center">Hey there, I'm Nandan Gupta </h1>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nandan-gupta-698aa11b">
@@ -125,10 +125,34 @@ A powerful command-line web fuzzing and penetration testing tool designed for se
 **Key Features:** Multithreading, payload encoding, custom headers, charset bruteforcing, user-defined placeholders, request file handling  
 **Presented at:** AppSec Village DC 2025
 
-#### [AIGraphqlPentester](https://github.com/nayangoel/AIGraphqlPentester)
-A comprehensive Burp Suite extension (also known as GraphQL Security Tester) that leverages AI to generate sophisticated malicious GraphQL test queries for authorized security testing. Combines introspection techniques with GPT-powered exploit generation to automate schema extraction and create attacks targeting SQL injection, authorization bypasses, input validation issues, DoS attacks, and sensitive data exposure. Features dynamic AI status monitoring and intelligent prompt scoping for accurate exploit generation.
+#### [AIGraphqlPentester / GraphQL Security Tester](https://github.com/nayangoel/AIGraphqlPentester)
+A comprehensive Burp Suite extension that leverages AI to generate sophisticated malicious GraphQL test queries for authorized security testing. Available on the official PortSwigger BApp Store, this professional-grade tool combines introspection techniques with Burp AI-powered exploit generation to automate schema extraction and create attacks targeting SQL injection, authorization bypasses, input validation issues, DoS attacks, and sensitive data exposure.
 
-**Key Features:** Automated schema extraction, GPT-powered exploit generation, multiple attack vectors, dynamic AI monitoring  
+**Official BApp Store Extension:**
+- **[Download from BApp Store](https://portswigger.net/bappstore/bd98c38519144301a0a232d8e7df613c)** | **[View Source Code](https://github.com/portswigger/graphql-security-tester)**
+- **Version:** 1.0.0
+- **Authors:** Nayan Goel, Nandan Gupta
+- **Last Updated:** February 4, 2026
+
+**Key Features:**
+- 🤖 **Burp AI Integration**: Generates malicious query variants targeting SQL injection, authorization bypass, DoS, information disclosure, input validation, NoSQL injection, and rate limiting vulnerabilities
+- 🔍 **Dual Schema Extraction**: Automatic introspection of GraphQL endpoints or manual schema input and parsing
+- 🎯 **Two Generation Modes**: 
+  - **Bulk Testing**: Comprehensive vulnerability coverage across all attack vectors
+  - **Targeted Testing**: Generate malicious variants of specific queries
+- 📝 **Custom AI Messaging**: Specialized security guidance and tailored vulnerability analysis
+- 🔄 **RAG Integration**: Optional Retrieval-Augmented Generation service with configurable relevance parameters and smart caching
+- ✨ **Single-Line Query Formatting**: Automatically converts multi-line GraphQL queries for streamlined testing workflows
+
+**Quick Start:**
+1. Enable Burp AI features in Extensions → Installed tab
+2. Extract GraphQL schema via endpoint introspection or manual input
+3. Specify target query (focused testing) or leave empty (comprehensive testing)
+4. Define attack types to test
+5. Generate AI-powered malicious test cases with detailed attack vector explanations
+
+**Impact**: This extension brings intelligent automation to GraphQL security testing, making it easier for security professionals to identify vulnerabilities in GraphQL APIs through systematic, AI-powered testing methodologies.
+
 **Presented at:** Global Data & AI Innovation (GDAI) 2025
 
 #### [Damn Vulnerable SCA (SCAGoat)](https://github.com/harekrishnarai/Damn-vulnerable-sca)
