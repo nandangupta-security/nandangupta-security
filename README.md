@@ -134,24 +134,9 @@ A comprehensive Burp Suite extension that leverages AI to generate sophisticated
 - **Authors:** Nayan Goel, Nandan Gupta
 - **Last Updated:** February 4, 2026
 
-**Key Features:**
-- 🤖 **Burp AI Integration**: Generates malicious query variants targeting SQL injection, authorization bypass, DoS, information disclosure, input validation, NoSQL injection, and rate limiting vulnerabilities
-- 🔍 **Dual Schema Extraction**: Automatic introspection of GraphQL endpoints or manual schema input and parsing
-- 🎯 **Two Generation Modes**: 
-  - **Bulk Testing**: Comprehensive vulnerability coverage across all attack vectors
-  - **Targeted Testing**: Generate malicious variants of specific queries
-- 📝 **Custom AI Messaging**: Specialized security guidance and tailored vulnerability analysis
-- 🔄 **RAG Integration**: Optional Retrieval-Augmented Generation service with configurable relevance parameters and smart caching
-- ✨ **Single-Line Query Formatting**: Automatically converts multi-line GraphQL queries for streamlined testing workflows
+**Key Features:** AI-powered malicious query generation targeting SQL injection, authorization bypass, DoS, and more | Dual-mode testing (bulk/targeted) with automatic schema extraction | RAG integration and single-line query formatting for streamlined workflows
 
-**Quick Start:**
-1. Enable Burp AI features in Extensions → Installed tab
-2. Extract GraphQL schema via endpoint introspection or manual input
-3. Specify target query (focused testing) or leave empty (comprehensive testing)
-4. Define attack types to test
-5. Generate AI-powered malicious test cases with detailed attack vector explanations
-
-**Impact**: This extension brings intelligent automation to GraphQL security testing, making it easier for security professionals to identify vulnerabilities in GraphQL APIs through systematic, AI-powered testing methodologies.
+**Impact**: Brings intelligent automation to GraphQL security testing, making vulnerability identification systematic and efficient for security professionals.
 
 **Presented at:** Global Data & AI Innovation (GDAI) 2025
 
